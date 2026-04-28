@@ -180,21 +180,21 @@ This protocol follows a **hybrid model**:
 ```mermaid
 flowchart TD
 
-	A[Patient / Doctor App] --> B[API Layer]
-	B --> C[Encryption Layer]
+	A["Patient / Doctor App"] --> B["API Layer"]
+	B --> C["Encryption Layer"]
 
-	C --> D[MongoDB (Off-Chain Storage)]
-	C --> E[Hash Generator]
+	C --> D["MongoDB<br/>(Off-Chain Storage)"]
+	C --> E["Hash Generator"]
 
-	E --> F[Blockchain Core]
-	F --> G[Block Creation]
-	G --> H[PoA Validation]
+	E --> F["Blockchain Core"]
+	F --> G["Block Creation"]
+	G --> H["PoA Validation"]
 
-	H --> I[Distributed Nodes]
+	H --> I["Distributed Nodes"]
 
-	I --> J[Blockchain Ledger]
+	I --> J["Blockchain Ledger"]
 
-	J --> K[Verification Layer]
+	J --> K["Verification Layer"]
 	K --> B
 
 	subgraph Security
