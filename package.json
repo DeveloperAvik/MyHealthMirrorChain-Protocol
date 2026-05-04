@@ -1,0 +1,23 @@
+{
+	"name": "myhealthmirrorchain-protocol",
+	"private": true,
+	"version": "0.1.0",
+	"description": "MyHealthMirrorChain Protocol monorepo",
+	"license": "Apache-2.0",
+	"packageManager": "pnpm@10.33.2",
+	"engines": {
+		"node": ">=18"
+	},
+	"scripts": {
+		"dev": "turbo run dev",
+		"build": "turbo run build",
+		"test": "turbo run test",
+		"lint": "turbo run lint",
+		"typecheck": "turbo run typecheck"
+	},
+	"devDependencies": {
+		"@types/node": "^22.19.17",
+		"turbo": "^2.0.12",
+		"typescript": "^6.0.3"
+	}
+}

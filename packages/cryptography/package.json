@@ -1,0 +1,18 @@
+{
+  "name": "@myhealthmirrorchain/cryptography",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc -p tsconfig.json --watch",
+    "build": "tsc -p tsconfig.json",
+    "test": "echo \"cryptography tests are not set yet\"",
+    "lint": "echo \"cryptography lint is not set yet\"",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10"
+  }
+}

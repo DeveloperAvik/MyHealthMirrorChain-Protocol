@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "dist",
+    "types": ["node"]
+  },
+  "include": [
+    "index.ts",
+    "hashing/**/*.ts",
+    "encryption/**/*.ts",
+    "signatures/**/*.ts",
+    "key-management/**/*.ts",
+    "utils/**/*.ts"
+  ]
+}
