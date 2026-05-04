@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "dist",
+    "types": ["node"]
+  },
+  "include": [
+    "index.ts",
+    "block/**/*.ts",
+    "blockchain/**/*.ts",
+    "types/**/*.ts",
+    "validation/**/*.ts"
+  ]
+}
