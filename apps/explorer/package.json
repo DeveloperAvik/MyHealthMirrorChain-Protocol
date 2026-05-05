@@ -1,0 +1,13 @@
+{
+  "name": "@myhealthmirrorchain/explorer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "echo \"explorer dev script is not set yet\"",
+    "build": "echo \"explorer build script is not set yet\"",
+    "test": "echo \"explorer test script is not set yet\"",
+    "lint": "echo \"explorer lint script is not set yet\"",
+    "typecheck": "echo \"explorer typecheck script is not set yet\""
+  }
+}

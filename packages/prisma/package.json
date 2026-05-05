@@ -1,0 +1,13 @@
+{
+  "name": "@myhealthmirrorchain/prisma",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "echo \"prisma dev script is not set yet\"",
+    "build": "echo \"prisma build script is not set yet\"",
+    "test": "echo \"prisma test script is not set yet\"",
+    "lint": "echo \"prisma lint script is not set yet\"",
+    "typecheck": "echo \"prisma typecheck script is not set yet\""
+  }
+}

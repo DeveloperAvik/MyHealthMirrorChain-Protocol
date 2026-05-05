@@ -1,0 +1,13 @@
+{
+  "name": "@myhealthmirrorchain/demo-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "echo \"demo-dashboard dev script is not set yet\"",
+    "build": "echo \"demo-dashboard build script is not set yet\"",
+    "test": "echo \"demo-dashboard test script is not set yet\"",
+    "lint": "echo \"demo-dashboard lint script is not set yet\"",
+    "typecheck": "echo \"demo-dashboard typecheck script is not set yet\""
+  }
+}

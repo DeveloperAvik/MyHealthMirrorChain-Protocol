@@ -1,0 +1,13 @@
+{
+  "name": "@myhealthmirrorchain/network",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "echo \"network dev script is not set yet\"",
+    "build": "echo \"network build script is not set yet\"",
+    "test": "echo \"network test script is not set yet\"",
+    "lint": "echo \"network lint script is not set yet\"",
+    "typecheck": "echo \"network typecheck script is not set yet\""
+  }
+}

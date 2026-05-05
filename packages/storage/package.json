@@ -1,0 +1,21 @@
+{
+  "name": "@myhealthmirrorchain/storage",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "echo \"storage dev script is not set yet\"",
+    "build": "echo \"storage build script is not set yet\"",
+    "test": "echo \"storage test script is not set yet\"",
+    "lint": "echo \"storage lint script is not set yet\"",
+    "typecheck": "echo \"storage typecheck script is not set yet\""
+  },
+  "dependencies": {
+    "@prisma/client": "^7.8.0",
+    "mongodb": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "prisma": "^7.8.0"
+  }
+}
